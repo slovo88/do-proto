@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:client": "cd client && yarn build",
+    "build:client": "cd client && yarn install && yarn build",
     "build": "yarn install && yarn build:client",
     "run": "yarn start"
   },
