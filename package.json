@@ -1,0 +1,28 @@
+{
+  "name": "do-proto",
+  "version": "1.0.0",
+  "description": "Messing around in digital ocean",
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:client": "cd client && yarn build",
+    "build": "yarn install && yarn build:client",
+    "run": "yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slovo88/do-proto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slovo88/do-proto/issues"
+  },
+  "homepage": "https://github.com/slovo88/do-proto#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
